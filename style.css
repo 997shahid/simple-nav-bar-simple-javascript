@@ -89,6 +89,17 @@ fill: white;
 .main-nav-2{
  display: none;
 }
+.main-text{
+ /* border: 1px solid; */
+ height: 70vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.main-text span{
+ font-size: 40px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
 @media screen and (max-width:520px){
  .main-nav-2{
   width: 80%;
@@ -114,5 +125,8 @@ fill: white;
  }
  .click-nav{
   display: flex;
+ }
+ .main-text{
+  display: none;
  }
 }
